@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\ServiceController;
 use App\Http\Controllers\ChangePasswordController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\InfoUserController;
@@ -83,6 +84,8 @@ Route::group(['middleware' => 'guest'], function () {
 
 });
 
-Route::get('/login', function () {
-    return view('session/login-session');
-})->name('login');
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/informasiberkala', function () {
+    return view('admin.informasiberkala');
+})->name('');
+Route::resource('services', ServiceController::class);
