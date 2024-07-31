@@ -39,7 +39,7 @@
           <img src="{{ asset('assets/img/logo/logo.png') }}" alt="Logo" class="pl-6 h-12 mr-0">
           {{-- <img src="{{ asset('assets/img/logo-bsre.png') }}" alt="Logo" class="h-24 md:h-32 lg:h-40" /> --}}
           <div>
-            <h1 class="text-[20px] font-bold">PPID KOTA SURAKARTA</h1>
+            <h1 class="text-[20px] font-bold">PPID KOTA Bojonegoro</h1>
             <h1 class="text-[12px] font-thin">Pejabat Pengelola Informasi Dan Dokumentasi</h1>
           </div>
         </a>
